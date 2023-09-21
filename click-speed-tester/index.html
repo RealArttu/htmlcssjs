@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="cst-styles.css">
+    <title>Ad Clean Click Speed Tester</title>
+</head>
+<body onload="initialize();">
+    <div class="container">
+        <h1 class="header">Ad Clean Click Speed Tester</h1>
+        <p class="header">By <a href="https://github.com/RealArttu" target="_blank">RealArttu</a></p>
+
+        <div class="stats">
+            <section>
+                <p class="stats-item">Time Left (s):</p>
+                <p class="stats-item" id="t-left">0</p>
+            </section>
+            <section>
+                <p class="stats-item">Clicks: </p>
+                <p class="stats-item" id="clicks"></p>
+            </section>
+            <section>
+                <p class="stats-item">Clicks Per Second: </p>
+                <p class="stats-item" id="cps">1</p>
+            </section>
+        </div>
+        
+        <div id="click-area" class="click-container noselect" onclick="addClick()">
+            <p>Click here</p>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn-primary" name="btn" id="btn-10s" onclick="setTime(10)">10 S</button>
+            <button class="btn-primary" name="btn" id="btn-20s" onclick="setTime(20)">20 S</button>
+            <button class="btn-primary" name="btn" id="btn-30s" onclick="setTime(30)">30 S</button>
+            <button class="btn-primary" name="btn" id="btn-60s" onclick="setTime(60)">60 S</button>
+        </div>
+        <div class="btn-container">
+            <button class="btn" id="start" onclick="start()">Start</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.box-body {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-content-1 {
+    padding: 40px 10px 40px 10px;
+}
+
+.box-content-2 {
+    padding: 0px 10px 40px 10px;
+}
+
+.btn {
+    height: 40px;
+    width: 60px;
+    border: 2px solid black;
+}
+
+textarea {
+    border: none;
+    outline: 2px solid black;
+    position: relative;
+    height: 250px;
+    width: 75%;
+    text-align: center;
+    white-space: pre-wrap;
+    resize: none;
+}
+
+.box-top, .box-bottom {
+    padding: 10px;
+}
+
+.box-top {
+    border-bottom: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: lightgrey;
+}
+
+.box-bottom {
+    border-top: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: lightgrey;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Css box</title>
+</head>
+<body>
+    <div class="box-body">
+        <div class="box-top">Box Top</div>
+        <div class="box-content-1">
+            <textarea id="text" readonly>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad laborum nihil repellat voluptas optio suscipit. Veniam, praesentium magnam nihil cum at tempora odio, magni incidunt autem aliquid repudiandae alias.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reprehenderit assumenda harum adipisci architecto mollitia amet sed quidem non consequuntur. Ducimus rerum quod ab quam alias vel eos ad sint.
+            </textarea>
+        </div>
+        <div class="box-content-2">
+            <button onclick="document.getElementById('text').readOnly = false" class="btn">Edit</button>
+            <button onclick="document.getElementById('text').readOnly = true" class="btn">Save</button>
+        </div>
+        <div class="box-bottom">Box box bottom</div>
+    </div>
+</body>
+</html>
